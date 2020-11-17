@@ -13,7 +13,7 @@ public class FirstRepeatingElementInArray {
 	for (int i = 0; i < n; i++) {
 	    arr[i] = sc.nextInt();
 	}
-	// BigO - O(n^2)
+	// BigO - O(2n)
 	method1(arr);
 	// BigO - O(n)
 	method2(arr);
