@@ -1,6 +1,6 @@
 package loveBabar450;
 
-public class Solution1 {
+public class ReverseAnArray {
 
     public static void main(String[] args) {
 	/*** Reverse an array ***/

@@ -1,4 +1,4 @@
-package linkedlist;
+ package linkedlist;
 
 public class DeleteAtBeginingOrEnd {
     static Node insertBegin(Node head, int x) {

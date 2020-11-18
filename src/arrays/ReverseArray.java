@@ -1,6 +1,6 @@
 package arrays;
 
-public class GFG {
+public class ReverseArray {
     /* Function to reverse arr[] from 
     start to end*/
     static void rvereseArray(int arr[],
