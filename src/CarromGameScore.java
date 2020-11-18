@@ -1,7 +1,7 @@
 
 public class CarromGameScore {
     public static void main(String[] args) {
-	calculatePercentage(1513.0f, 3506.0f);
+	calculatePercentage(1518.0f, 3517.0f);
     }
 
     public static void calculatePercentage(float totalWins, float totalGames) {
