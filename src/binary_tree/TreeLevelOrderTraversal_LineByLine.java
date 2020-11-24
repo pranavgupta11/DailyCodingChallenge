@@ -13,11 +13,25 @@ public class TreeLevelOrderTraversal_LineByLine {
     	root.left.right=new Node(50);
     	root.right.left=new Node(60);
     	root.right.right=new Node(70);
-	printLevel(root);
+    	printTree(root);
+    	System.out.println();
+	printLevels(root);
 	
     }
-    
-    public static void printLevel(Node root){
+    public static void printTree(Node root){
+        if(root==null)return;
+        Queue<Node> q=new LinkedList<>();
+        q.add(root);
+        while(q.isEmpty()==false){
+            Node curr=q.poll();
+            System.out.print(curr.key+" ");
+            if(curr.left!=null)
+                q.add(curr.left);
+            if(curr.right!=null)
+                q.add(curr.right);
+        }
+    } 
+    public static void printLevels(Node root){
         if(root==null)return;
         Queue<Node> q=new LinkedList<>();
         q.add(root);
