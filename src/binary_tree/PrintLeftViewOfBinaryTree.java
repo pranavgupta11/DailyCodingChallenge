@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class PrintLeftViewOfBinaryTree {
-    static int MaxLevel = 0;
+    
 
     public static void main(String[] args) {
 
@@ -21,7 +21,7 @@ public class PrintLeftViewOfBinaryTree {
 	System.out.println();
 	printLeftView2(root);
     }
-
+    static int MaxLevel = 0;
     public static void printLeftView1(Node root, int level) {
 	if (root == null)
 	    return;

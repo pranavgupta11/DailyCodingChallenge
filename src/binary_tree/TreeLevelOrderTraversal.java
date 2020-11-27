@@ -29,7 +29,7 @@ public class TreeLevelOrderTraversal {
                 q.add(curr.left);
             if(curr.right!=null)
                 q.add(curr.right);
-            System.out.println("");
+            
         }
     } 
 }

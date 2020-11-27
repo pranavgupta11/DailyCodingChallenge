@@ -26,15 +26,16 @@ public class LargestNumber {
 	for (int i = 0; i < n; i++) {
 	    int j = i + 1;
 	    while (j < n) {
-		if (Integer.parseInt(arr_s[i] + arr_s[j]) < Integer.parseInt(arr_s[j] + arr_s[i])) {
+		if (Double.parseDouble(arr_s[i] + arr_s[j]) < Double.parseDouble(arr_s[j] + arr_s[i])) {
 		    String temp = arr_s[i];
 		    arr_s[i] = arr_s[j];
 		    arr_s[j] = temp;
-		    j++;
+		    
 		}
+		j++;
 	    }
 	}
-	if (arr_s[0] == "0") {
+	if (arr_s[0].equals("0")) {
 	    return "0";
 	}
 	StringBuilder sb = new StringBuilder();
