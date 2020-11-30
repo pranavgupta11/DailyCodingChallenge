@@ -1,11 +1,11 @@
-package leetcode;
+package leetcode.easy;
 
 import java.util.HashMap;
 
-public class firstNonRepeatingCharacter {
+public class LeetCode_E_387_firstUniqChar {
     public static void main(String[] args) {
         String sampleInput = "aaabccdaac";
-        System.out.println("firstNonRepeatingCharacter is " + findFirstNonRepeatingCharacter(sampleInput));
+        System.out.println("LeetCode_E_387_firstUniqChar is " + findFirstNonRepeatingCharacter(sampleInput));
     }
 
     public static char findFirstNonRepeatingCharacter(String sampleInput) {

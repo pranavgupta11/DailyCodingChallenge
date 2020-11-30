@@ -14,7 +14,7 @@ public class LeftRorateArrayByD {
 	}
 	// if d is greater than n then (d-n) rotations required
 
-	method3(arr, d);
+	method2(arr, d);
     }
 
     // Big O(n* d)
