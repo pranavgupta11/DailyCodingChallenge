@@ -1,7 +1,7 @@
 
 public class CarromGameScore {
     public static void main(String[] args) {
-	calculatePercentage(1518.0f, 3517.0f);
+	calculatePercentage(1662.0f, 3779.0f);
     }
 
     public static void calculatePercentage(float totalWins, float totalGames) {
@@ -23,5 +23,9 @@ public class CarromGameScore {
 	} while(!flag);
 	
 	System.out.println("Current Win percentage "+previosWin+ "\nNumber of games require to reach next level "+count);
+    
+    StringBuilder sb = new StringBuilder();
+    
+    
     }
 }

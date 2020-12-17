@@ -38,11 +38,12 @@ public class SubArraySumArray {
 	    if(s==sum) {
 		start = i;
 		end = j;
+		break;
 	    }
 	    j++;
 	}
 	if(start != -1 && end != -1) {
-	    System.out.println("Sub array exists " + start + " " + end);
+	    System.out.println("Sub array exists " + (start+1) + " " + (end+1));
 	}else {
 	    System.out.println("Sub array does not exists");
 	}
