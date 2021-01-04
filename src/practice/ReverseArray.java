@@ -23,6 +23,6 @@ public class ReverseArray {
 	    result[j - 1] = arr[i];
 	    j -= 1;
 	}
-	System.out.println(Arrays.toString(result));
+	//System.out.println(Arrays.toString(result));
     }
 }
